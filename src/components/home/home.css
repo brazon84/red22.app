@@ -1,0 +1,51 @@
+.home {
+    display: block;
+    background-color: var(--red);
+    color: var(--witheL)
+}
+
+.home_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card_primary {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.section_home {
+    min-width: 100px;
+    max-width: 400px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.content_home {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    border: 2px solid var(--lighgreen);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section_primary_card {
+    padding: 20px;
+}
+
+.sub_title_home {
+    padding: 20px
+}
+
+.section_home:hover {
+    box-shadow: 0px 0px 30px var(--witheL)
+}

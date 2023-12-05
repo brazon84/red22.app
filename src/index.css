@@ -1,0 +1,21 @@
+:root{
+    --black: black;
+    --red: #A61B5D;
+    --witheL:#EBEBEC ;
+    --withe: #fefefe;
+    --lighgreen:black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#283436
+#EBEBEC
+#A61B5D
+#4FA09D
+#8FB9B8
+#938F3B
+#D086AC
+#B8D4D4
+#B0B0AB
+#E8BAD1
