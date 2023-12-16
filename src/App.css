@@ -1,0 +1,11 @@
+.construccion{
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+.formato{
+    height: 100vh;
+}
+body{
+    background-color: palegoldenrod;
+
+}
