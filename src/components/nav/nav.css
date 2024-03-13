@@ -16,15 +16,15 @@
 
 }
 
-.collapse{
+/* .collapse{
     justify-content: end;
-}
-.navbar-nav{
+} */
+/* .navbar-nav{
 gap: 50px;
 margin-right: 30px;
-}
+} */
 a i{
-    font-size: 30px;
+    /* font-size: 30px; */
     color: var(--withe);
     padding: 6px;
 }
