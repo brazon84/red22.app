@@ -29,12 +29,12 @@ const Nav = () => {
           <div className="offcanvas-header">
             <button
               type="button"
-              className="btn-close"
+              className="btn-close text-white"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto mx-4">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 <i className="bx bxs-home"></i> Inicio
