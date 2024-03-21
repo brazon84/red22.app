@@ -42,11 +42,11 @@ const Nav = () => {
                 <i className="bx bxs-home"></i> Inicio
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#nosotros">
                 <i className="bx bxs-id-card"></i> Nosotros
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#planes">
                 <i className="bx bxs-info-circle"></i> Planes
@@ -66,11 +66,11 @@ const Nav = () => {
                 <i className="bx bxs-home"></i> Inicio
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#nosotros">
                 <i className="bx bxs-id-card"></i> Nosotros
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#planes">
                 <i className="bx bxs-info-circle"></i> Planes
