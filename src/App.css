@@ -5,10 +5,6 @@
 .formato{
     height: 100vh;
 }
-body{
-    background-color: palegoldenrod;
-
-}
 .home {
     display: block;
     background-color: var(--red);

@@ -8,7 +8,9 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-gray-200 dark:bg-gray-900">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src={logo} alt="Logo" className="logo bx-flashing" />
+          <div className="bx-flashing justify-center items-center">
+          <img src={logo} alt="Logo" className="logo" />
+          </div>
         </a>
         <button
           className="navbar-toggler"
@@ -26,13 +28,13 @@ const Nav = () => {
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div className="offcanvas-header">
+          <div className="offcanvas-header  ">
             <button
               type="button"
-              className="btn-close text-white"
+              className="btn-close bg-black"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
-            ></button>
+            ><i className='bx bx-x bx-spin text-white'></i></button>
           </div>
           <ul className="navbar-nav ms-auto mx-4">
             <li className="nav-item">
