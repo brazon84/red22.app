@@ -3,9 +3,9 @@
     width: 150px;
     height: 60px;
 }
-.navbar {
+/* .navbar {
     background-color: var(--lighgreen);
-}
+} */
 .nav-link i:hover{
     color: var(--black);
     box-shadow: 0px 0px 30px var(--withe);

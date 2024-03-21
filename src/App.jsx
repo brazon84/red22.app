@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <div className='bg-pink-800'>
+    <div className='bg-pink-500'>
     <Nav  />  
     <Home />
     {/* <Nosotros /> */}

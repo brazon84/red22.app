@@ -43,23 +43,23 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="nosotros">
+              <a className="nav-link" href="#nosotros">
                 <i className="bx bxs-id-card"></i> Nosotros
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="planes">
+              <a className="nav-link" href="#planes">
                 <i className="bx bxs-info-circle"></i> Planes
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact">
+              <a className="nav-link" href="#contact">
                 <i className="bx bxs-contact"></i> Contacto
               </a>
             </li>
           </ul>
         </div>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
@@ -67,17 +67,17 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="nosotros">
+              <a className="nav-link" href="#nosotros">
                 <i className="bx bxs-id-card"></i> Nosotros
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="planes">
+              <a className="nav-link" href="#planes">
                 <i className="bx bxs-info-circle"></i> Planes
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact">
+              <a className="nav-link" href="#contact">
                 <i className="bx bxs-contact"></i> Contacto
               </a>
             </li>
