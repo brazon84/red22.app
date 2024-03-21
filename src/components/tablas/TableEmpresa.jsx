@@ -17,35 +17,35 @@ const TableEmpresa = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-gray-100">
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">$55</td>
-            <td className="border border-black-500 px-4 py-2">$1</td>
+          <tr className="bg-gray-100 font-bold">
+            <td className="border border-black-500 px-4 py-2">Emprendedor</td>
+            <td className="border border-black-500 px-4 py-2">10</td>
+            <td className="border border-black-500 px-4 py-2">$45</td>
+            <td className="border border-black-500 px-4 py-2">$4.5</td>
           </tr>
-          <tr className="bg-gray-100">
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">$55</td>
-            <td className="border border-black-500 px-4 py-2">$1</td>
+          <tr className="bg-gray-100 font-bold">
+            <td className="border border-black-500 px-4 py-2">Emprendedor Super</td>
+            <td className="border border-black-500 px-4 py-2">20</td>
+            <td className="border border-black-500 px-4 py-2">$65</td>
+            <td className="border border-black-500 px-4 py-2">$3.25</td>
           </tr>
-          <tr className="bg-gray-100">
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">$55</td>
-            <td className="border border-black-500 px-4 py-2">$1</td>
+          <tr className="bg-gray-100 font-bold">
+            <td className="border border-black-500 px-4 py-2">Emprendedor Ultra</td>
+            <td className="border border-black-500 px-4 py-2">30</td>
+            <td className="border border-black-500 px-4 py-2">$95</td>
+            <td className="border border-black-500 px-4 py-2">$3.17</td>
           </tr>
-          <tr className="bg-gray-100">
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">$55</td>
-            <td className="border border-black-500 px-4 py-2">$1</td>
+          <tr className="bg-gray-100 font-bold">
+            <td className="border border-black-500 px-4 py-2">Emprendedor Plus</td>
+            <td className="border border-black-500 px-4 py-2">35</td>
+            <td className="border border-black-500 px-4 py-2">$100</td>
+            <td className="border border-black-500 px-4 py-2">$2.86</td>
           </tr>
-          <tr className="bg-gray-100">
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">55</td>
-            <td className="border border-black-500 px-4 py-2">$55</td>
-            <td className="border border-black-500 px-4 py-2">$1</td>
+          <tr className="bg-gray-100 font-bold">
+            <td className="border border-black-500 px-4 py-2">DEDICADOS desde 5 Mb</td>
+            <td className="border border-black-500 px-4 py-2"></td>
+            <td className="border border-black-500 px-4 py-2"></td>
+            <td className="border border-black-500 px-4 py-2">$14</td>
           </tr>
         </tbody>
       </table>
