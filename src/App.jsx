@@ -12,15 +12,15 @@ function App() {
   
 
   return (
-    <div className='bg-rose-900'>
+    <div className='bg-rose-900 overflow-hidden'>
     <Nav  />  
     <Home />
     {/* <Nosotros /> */}
     <Planes />   
      {/*
     <Informacion />
-    <Contact />
-    <Footer /> */}
+  <Contact /> */}
+    <Footer /> 
     {/* <div className='formato'>
     <h1 className='construccion text-center mt-72 bx-flashing'>pagina en construccion disculpe las molestias ocacionadas</h1>
     </div> */}
