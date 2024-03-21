@@ -10,17 +10,17 @@ const Home = () => {
       <h1 className="home_title"><b>Home</b></h1>
       <div className="card_primary">
         <div className="section_primary_card">
-          <section className="section_home">
+          <section className="section_home bg-pink-800">
           <Historia />
           </section>
         </div>
         <div className="section_primary_card">
-          <section className="section_home">
+          <section className="section_home  bg-pink-800">
            <Mision />
           </section>
         </div>
         <div className="section_primary_card">
-          <section className="section_home">
+          <section className="section_home  bg-pink-800">
             <Vision />
           </section>
         </div>
