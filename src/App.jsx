@@ -10,7 +10,7 @@ import Promos from "./components/promociones/Promos";
 
 function App() {
   return (
-    <div className="bg-[#930f5f] overflow-hidden">
+    <div className="bg-[#930f5f] overflow-hidden h-lvh">
       <BrowserRouter>
         <Nav />
         <WhatApp />
