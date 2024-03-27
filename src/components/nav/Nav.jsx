@@ -43,11 +43,11 @@ const Nav = () => {
                 <i className="bx bxs-home"></i> Inicio
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#nosotros">
-                <i className="bx bxs-id-card"></i> Nosotros
-              </a>
-            </li> */}
+            <li className="nav-item">
+              <Link className="nav-link" to="promo">
+                <i className="bx bxs-id-card"></i> Promociones
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="planes">
                 <i className="bx bxs-info-circle"></i> Planes

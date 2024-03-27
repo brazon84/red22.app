@@ -1,9 +1,10 @@
 import React from 'react'
+import Construccion from "../../assets/image/construccion.png"
 
 const Contact = () => {
   return (
-    <div id='contac'>
-      <h2>Contacto</h2>
+    <div className='m-5 flex justify-center'>
+      <img src={Construccion} alt="construccion" />
     </div>
   )
 }
