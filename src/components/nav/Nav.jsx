@@ -2,16 +2,17 @@ import React from "react";
 import logo from "../../../src/assets/image/red.png";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importa estilos de Bootstrap
 import "./nav.css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-gray-200 dark:bg-gray-900">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <div className="bx-flashing justify-center items-center">
           <img src={logo} alt="Logo" className="logo" />
           </div>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,9 +39,9 @@ const Nav = () => {
           </div>
           <ul className="navbar-nav ms-auto mx-4">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to="/">
                 <i className="bx bxs-home"></i> Inicio
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="#nosotros">
@@ -48,23 +49,23 @@ const Nav = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="#planes">
+              <Link className="nav-link" to="planes">
                 <i className="bx bxs-info-circle"></i> Planes
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <Link className="nav-link" to="contact">
                 <i className="bx bxs-contact"></i> Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to="/">
                 <i className="bx bxs-home"></i> Inicio
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="#nosotros">
@@ -72,14 +73,14 @@ const Nav = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="#planes">
+              <Link className="nav-link" to="planes">
                 <i className="bx bxs-info-circle"></i> Planes
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <Link className="nav-link" to="contact">
                 <i className="bx bxs-contact"></i> Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

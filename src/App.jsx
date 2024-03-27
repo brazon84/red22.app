@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
@@ -12,18 +13,22 @@ function App() {
   
 
   return (
-    <div className='bg-rose-900 overflow-hidden'>
-    <Nav  />  
-    <Home />
+    <div className='bg-[#930f5f] overflow-hidden'>
+      <BrowserRouter>
+    <Nav  /> 
+    <Routes>
+    <Route path='/' element={<Home />}/>
     {/* <Nosotros /> */}
-    <Planes />   
+   <Route path='planes' element={ <Planes /> } />  
      {/*
     <Informacion />
   <Contact /> */}
+    </Routes> 
     <Footer /> 
     {/* <div className='formato'>
     <h1 className='construccion text-center mt-72 bx-flashing'>pagina en construccion disculpe las molestias ocacionadas</h1>
-    </div> */}
+  </div> */}
+  </BrowserRouter>
     
     </div>
   )
