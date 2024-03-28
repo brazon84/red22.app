@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -10,19 +10,18 @@ import Promos from "./components/promociones/Promos";
 
 function App() {
   return (
-    <div className="bg-[#930f5f] overflow-hidden sm:h-full md:h-svh ">
-      <BrowserRouter>
+    <div className="bg-[#930f5f] overflow-hidden sm:h-full md:h-svh">
+      <HashRouter>
         <Nav />
         <WhatApp />
         <Routes>
           <Route path="/" element={<Home />} />
-         
           <Route path="planes" element={<Planes />} />
           <Route path="contact" element={<Contact />} />
           <Route path="promo" element={<Promos />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
