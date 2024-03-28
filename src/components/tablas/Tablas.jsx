@@ -2,7 +2,7 @@ import React from "react";
 
 const Tablas = () => {
   return (
-    <div>
+    <div className="flex justify-center flex-wrap">
       <table className="border-collapse border border-black-500">
         <thead>
           <tr className="bg-pink-700 text-white">

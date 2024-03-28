@@ -5,7 +5,7 @@ import Promo3 from "../../assets/image/promo3.jpg";
 
 const Promos = () => {
   return (
-    <div>
+    <div className="mb-24 bg-[#930f5f] h-[500px] ">
       <div className="w-full text-center mb-4 mt-4">
         <h1 className='className="text-2xl font-bold py-3 bx-flashing text-white'>
           PROMOCIONES
