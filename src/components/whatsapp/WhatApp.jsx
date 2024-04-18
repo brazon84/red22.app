@@ -6,7 +6,7 @@ const WhatApp = () => {
   return (
     <div className="fixed right-0 mt-6 mr-4 z-10">
       <a className="" href={url} target="_blank">
-        <i className="bx bxl-whatsapp bx-tada text-green-700 font-bold text-6xl  hover:text-green-900 hover:bg-lime-700 hover:rounded-full hover:shadow-md hover:shadow-white"></i>
+        <i className="bx bxl-whatsapp bx-tada  text-green-700 font-bold text-6xl bg-slate-100 rounded-full hover:text-green-900 hover:bg-lime-700 hover:rounded-full hover:shadow-md hover:shadow-white"></i>
       </a>
     </div>
   );
