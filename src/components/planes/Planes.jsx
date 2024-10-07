@@ -10,13 +10,13 @@ const Planes = () => {
           Planes disponibles
         </h2>
       </div>
-      <div className="flex flex-col items-center justify-center w-full">
-        <div className="p-5">
+      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+        <div className="p-5 w-full md:w-1/2">
           <Tablas />
         </div>
-        <div className="p-5">
+        {/* <div className="p-5 w-full md:w-1/2">
           <TableEmpresa />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,20 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='bg-slate-800 bottom-0 fixed w-full'>
-<section className='p-3'>
-    <div className='text-white font-bold justify-center flex text-xs'>
-      {/* <h3 className='justify-center'>Copyright © 2004 –La Red 2022, C.A. Rif: J-50222218-9 Habilitacion Conatel- HGST-00733. Todos los derechos reservados.</h3> */}
+    <div className="bg-slate-800 bottom-0 fixed w-full">
+      <section className="p-3">
+        {/* Texto con copyright */}
+        <div className="text-white font-bold text-center text-xs space-y-2">
+          <p>Copyright © 2024 La Red 2022 C.A. Todos los derechos reservados.</p>
+          <p>Habilitación Conatel - HGST-00733</p>
+          <p>Desarrollado por: Jose G. Brazon L.</p>
+        </div>
+      </section>
     </div>
-    <div className='text-white font-bold justify-center flex text-xs'>
-      <h4 className='justify-center'>Desarrollado por: Jose G. Brazon L.</h4>
-    </div>
-</section>
-    </div>
-  )
+  );
 }
 
-export default Footer
-
-
+export default Footer;

@@ -12,7 +12,7 @@ const Nav = () => {
           <div className="bx-flashing justify-center items-center">
           <img src={logo} alt="Logo" className="logo" />
           </div>
-        </Link>
+        </Link> 
         <button
           className="navbar-toggler"
           type="button"
