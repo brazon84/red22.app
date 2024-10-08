@@ -7,6 +7,7 @@ import Nav from "./components/nav/Nav";
 import Planes from "./components/planes/Planes";
 import WhatApp from "./components/whatsapp/WhatApp";
 import Promos from "./components/promociones/Promos";
+import Ubicacion from "./components/ubicacion/Map"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="planes" element={<Planes />} />
           <Route path="contact" element={<Contact />} />
           <Route path="promo" element={<Promos />} />
+          <Route path="map" element={<Ubicacion />} />
         </Routes>
         <Footer />
       </HashRouter>

@@ -58,6 +58,11 @@ const Nav = () => {
                 <i className="bx bxs-contact"></i> Contacto
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="map">
+                <i className="bx bxs-map"></i> Ubicacion
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="collapse navbar-collapse">
@@ -80,6 +85,11 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link" to="contact">
                 <i className="bx bxs-contact"></i> Contacto
+              </Link>
+              </li>
+              <li className="nav-item">
+              <Link className="nav-link" to="map">
+                <i className="bx bxs-map"></i> Ubicacion
               </Link>
             </li>
           </ul>
