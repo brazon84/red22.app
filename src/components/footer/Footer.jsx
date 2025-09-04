@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-white font-bold text-center text-xs space-y-2">
           <p>Copyright © 2024 La Red 2022 C.A. Todos los derechos reservados.</p>
           <p>Habilitación Conatel - HGST-00733</p>
-          <p>Desarrollado por: Jose G. Brazon L.</p>
+          {/*<p>Desarrollado por: Jose G. Brazon L.</p>*/}
         </div>
       </section>
     </div>
