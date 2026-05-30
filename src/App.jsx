@@ -7,7 +7,8 @@ import Nav from "./components/nav/Nav";
 import Planes from "./components/planes/Planes";
 import WhatApp from "./components/whatsapp/WhatApp";
 import Promos from "./components/promociones/Promos";
-import Ubicacion from "./components/ubicacion/Map"
+import Ubicacion from "./components/ubicacion/Map";
+import VantaBackground from "./components/Background/Vanta";
 
 function App() {
   return (
