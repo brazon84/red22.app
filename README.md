@@ -149,19 +149,7 @@ Para hacer tu propio despliegue:
    /*  /index.html  200
    ```
 
----
 
-## 📸 Capturas de pantalla
-
-> 🖼️ *Agregá capturas del sitio aquí para que los visitantes del repositorio puedan ver el resultado final.*
-
-```markdown
-![Inicio](./screenshots/home.png)
-![Planes](./screenshots/plans.png)
-![Contacto](./screenshots/contact.png)
-```
-
----
 
 ## 👨‍💻 Autor
 
