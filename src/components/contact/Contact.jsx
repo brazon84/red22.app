@@ -3,8 +3,7 @@ import emailjs from '@emailjs/browser'; // 1. Importamos la librería
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    phone: '', 
+    name: '', 
     email: '',
     message: ''
   });
@@ -32,7 +31,7 @@ const Contact = () => {
 
     // 💡 REEMPLAZA ESTOS 3 STRINGS CON TUS DATOS DE EMAILJS
     const SERVICE_ID = 'service_urmx0c4';
-    const TEMPLATE_ID = 'template_a4hnnhe';
+    const TEMPLATE_ID = 'template_vp5ipoe';
     const PUBLIC_KEY = 'yCdvODQG5t0QYPG8Q';
 
     try {
@@ -42,7 +41,7 @@ const Contact = () => {
       alert('¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.');
       
       // Limpiar formulario si todo sale bien
-      setFormData({ name: '', phone: '', email: '', message: '' }); 
+      setFormData({ name: '', email: '', message: '' }); 
     } catch (error) {
       console.error('Error al enviar el correo:', error);
       alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
@@ -70,22 +69,6 @@ const Contact = () => {
               required
               className='w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all'
               placeholder='Tu nombre completo'
-            />
-          </div>
-
-          {/* Campo: Teléfono */}
-          <div>
-            <label className='block text-sm font-medium text-gray-700 mb-1'>
-              Teléfono de Contacto
-            </label>
-            <input
-              type='tel'
-              name='phone'
-              value={formData.phone}
-              onChange={handleChange}
-              required
-              className='w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all'
-              placeholder='Ej: 04121234567 (Solo números)'
             />
           </div>
 
